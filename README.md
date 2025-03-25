@@ -23,6 +23,7 @@ Debido a que no hay patrones y se están tratando palabras que se asemejan al le
 <br>
 Donde se está declarando que:
 <br>
-- Las palabras deben comenzar con A.
+- Lalala
+Las palabras deben comenzar con A.
 - Seguido de la A, se acepta cualquier elemento dentro del paréntesis separado por | que sirve como un or.
 - El $ significa que ahí debe terminar la palabra.
