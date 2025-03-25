@@ -28,6 +28,6 @@ Donde se está declarando que:
 <br>
 <ul>
   <li>Las palabras deben comenzar con A.</li>
-  <li>Seguido de la A, se acepta cualquier elemento dentro del paréntesis separado por | que sirve como un or.</li>
-  <li>El $ significa que ahí debe terminar la palabra.</li>
+  <li>Seguido de la A, se acepta cualquier elemento dentro del paréntesis separado por <strong>|</strong> mejor conocido como un or.</li>
+  <li>El <strong>$</strong> significa que ahí debe terminar la palabra.</li>
 </ul>
