@@ -19,4 +19,8 @@ Debido a que no hay patrones y se están tratando palabras que se asemejan al le
 <img src="https://github.com/XimePerezEscalante/TC2037_E1_A01751827/blob/main/Automata_A01751827.png?raw=true" alt="automata">
 
 <h2>Expresión regular</h2>
-^A(da|dan|aye|iya|elin|danedhel)$
+A(da|dan|aye|iya|elin|danedhel)$
+Donde se está declarando que:
+- Las palabras deben comenzar con A.
+- Seguido de la A, se acepta cualquier elemento dentro del paréntesis separado por | que sirve como un or.
+- El $ significa que ahí debe terminar la palabra.
