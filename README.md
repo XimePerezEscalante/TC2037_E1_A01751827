@@ -1,7 +1,7 @@
 # TC2037_E1_A01751827
 Evidencia 1 Análisis Léxico - Implementación de Métodos Computacionales
-
-<h3> Palabras que acepta el Autómata: </h3>
+<h2>Descripción</h2>
+Para el lenguaje de este proyecto ∑ = {a, d, e, h, i, l, n, y}, se pide que únicamente sean aceptadas las siguientes palabras:
 
 - <strong> Aaye or Aiya  </strong> - Quenya word for the verb 'Hail'.
 
@@ -12,6 +12,8 @@ Evidencia 1 Análisis Léxico - Implementación de Métodos Computacionales
 - <strong> Aelin </strong> - 'lake, pool' as in Aelin-uial.
 
 - <strong> Adanedhel </strong> - 'elf-man'.
+
+Debido a que no hay patrones y se está tratando palabras que usaríamos en lenguaje natural, decidí diseñar un DFA (Deterministic Finite Automaton), que muestro a continuación. 
 
 <h2>Automata:</h2>
 <img src="https://github.com/XimePerezEscalante/TC2037_E1_A01751827/blob/main/Automata_A01751827.png?raw=true" alt="automata">
