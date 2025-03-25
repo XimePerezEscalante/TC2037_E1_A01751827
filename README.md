@@ -1,7 +1,8 @@
 # TC2037_E1_A01751827
 Evidencia 1 Análisis Léxico - Implementación de Métodos Computacionales
 
-Palabras que acepta el Autómata:
+<h3>
+  Palabras que acepta el Autómata:
 - <strong> Aaye or Aiya </strong> - Quenya word for the verb 'Hail'.
 
 - <strong> Ada </strong> - 'Father', spoken by Arwen to Lord Elrond
@@ -11,3 +12,5 @@ Palabras que acepta el Autómata:
 - <strong> Aelin </strong> - 'lake, pool' as in Aelin-uial.
 
 - <strong> Adanedhel </strong> - 'elf-man'.
+</h3>
+
