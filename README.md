@@ -22,6 +22,7 @@ Debido a que no hay patrones y se están tratando palabras que se asemejan al le
 <h2>Expresión regular</h2>
 <strong> A(da|dan|aye|iya|elin|danedhel)$ </strong>
 <br>
+<br>
 Donde se está declarando que:
 <br>
 <br>
