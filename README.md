@@ -19,8 +19,8 @@ Debido a que no hay patrones y se están tratando palabras que se asemejan al le
 <img src="https://github.com/XimePerezEscalante/TC2037_E1_A01751827/blob/main/Automata_A01751827.png?raw=true" alt="automata">
 
 <h2>Expresión regular</h2>
-<br>
 <strong> A(da|dan|aye|iya|elin|danedhel)$ </strong>
+<br>
 Donde se está declarando que:
 <br>
 - Las palabras deben comenzar con A.
