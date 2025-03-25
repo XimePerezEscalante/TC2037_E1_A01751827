@@ -13,7 +13,7 @@ Para el lenguaje de este proyecto ∑ = {a, d, e, h, i, l, n, y}, se pide que ú
 
 - <strong> Adanedhel </strong> - 'elf-man'.
 
-Debido a que no hay patrones y se está tratando palabras que usaríamos en lenguaje natural, decidí diseñar un DFA (Deterministic Finite Automaton), que muestro a continuación. 
+Debido a que no hay patrones y se están tratando palabras que se asemejan al lenguaje natural, decidí diseñar un DFA (Deterministic Finite Automaton), que muestro a continuación. 
 
 <h2>Automata:</h2>
 <img src="https://github.com/XimePerezEscalante/TC2037_E1_A01751827/blob/main/Automata_A01751827.png?raw=true" alt="automata">
