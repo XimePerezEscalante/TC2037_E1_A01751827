@@ -13,6 +13,7 @@ Para el lenguaje de este proyecto ∑ = {a, d, e, h, i, l, n, y}, se pide que ú
 
 - <strong> Adanedhel </strong> - 'elf-man'.
 
+
 Debido a que no hay patrones y se están tratando palabras que se asemejan al lenguaje natural, decidí diseñar un DFA (Deterministic Finite Automaton), que muestro a continuación. 
 
 <h2>Automata:</h2>
@@ -23,7 +24,8 @@ Debido a que no hay patrones y se están tratando palabras que se asemejan al le
 <br>
 Donde se está declarando que:
 <br>
-- Lalala
-Las palabras deben comenzar con A.
-- Seguido de la A, se acepta cualquier elemento dentro del paréntesis separado por | que sirve como un or.
-- El $ significa que ahí debe terminar la palabra.
+<ul>
+  <li>Las palabras deben comenzar con A.</li>
+  <li>Seguido de la A, se acepta cualquier elemento dentro del paréntesis separado por | que sirve como un or.</li>
+  <li>El $ significa que ahí debe terminar la palabra.</li>
+</ul>
