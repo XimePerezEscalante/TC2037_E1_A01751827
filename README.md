@@ -31,3 +31,5 @@ Donde se está declarando que:
   <li>Seguido de la A, se acepta cualquier elemento dentro del paréntesis separado por <strong>|</strong> mejor conocido como un or.</li>
   <li>El <strong>$</strong> significa que ahí debe terminar la palabra.</li>
 </ul>
+<h2>Implementación</h2>
+Para el Autómata, usaré Prolog, mientras que la expresión regular estará programada en C++.
