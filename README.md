@@ -13,3 +13,5 @@ Evidencia 1 Análisis Léxico - Implementación de Métodos Computacionales
 
 - <strong> Adanedhel </strong> - 'elf-man'.
 
+<h2>Automata:</h2>
+<img src="https://github.com/XimePerezEscalante/TC2037_E1_A01751827/blob/main/Automata_A01751827.png?raw=true" alt="automata">
