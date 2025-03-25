@@ -24,6 +24,7 @@ Debido a que no hay patrones y se están tratando palabras que se asemejan al le
 <br>
 Donde se está declarando que:
 <br>
+<br>
 <ul>
   <li>Las palabras deben comenzar con A.</li>
   <li>Seguido de la A, se acepta cualquier elemento dentro del paréntesis separado por | que sirve como un or.</li>
