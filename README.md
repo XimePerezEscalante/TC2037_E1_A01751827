@@ -32,4 +32,8 @@ Donde se está declarando que:
   <li>El <strong>$</strong> significa que ahí debe terminar la palabra.</li>
 </ul>
 <h2>Implementación</h2>
-Para el Autómata, usaré Prolog, mientras que la expresión regular estará programada en C++.
+Para el DFA en Prolog, se deben definir:
+1. Las transiciones entre estados: Estado Inicial, Estado Final y el símbolo con el que se pasó al estado inicial.
+2. Los estados finales: en este caso son q3, q4, q9 y q12.
+3. Las reglas que van a recorrer cada letra de la palabra para ver si es válida o no.
+Todo esto se muestra a continuación:
