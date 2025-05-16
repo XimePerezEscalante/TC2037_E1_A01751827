@@ -46,6 +46,9 @@ Para el DFA en Prolog, se deben definir:
 </ol>
 
 Todo esto se muestra a continuación:
+<br>
+<ol>
+ <li>
 <strong> Transiciones: </strong>
 ```pl
 traslada('A',q0,q1).
@@ -68,4 +71,40 @@ traslada(l,q15,q16).
 traslada(i,q16,q17).
 traslada(n,q17,q9).
 ```
+</li> 
+<li>
+  <strong>Estados finales:</strong>
+  ```
+  estado_final(q3).
+estado_final(q4).
+estado_final(q9).
+estado_final(q12).
+  ```
+</li>
+  <li>
+    <strong>Reglas:</strong>
+    Regla que recibe la palabra.
+    ```
+    % comenzar a parsear desde el estado inicial (q0)
+valida(Palabra):-
+    parse(Palabra, q0).
+```
+Regla que establece el caso base, que es cuando la lista queda vacía. Recibe el estado, para ver si coincide con un estado final y de ser así, la palabra es válida.
+```
+% caso base
+parse([], Estado_inicial):-
+    estado_final(Estado_inicial).
+```
+Regla en la que se recorre la palabra usando recursividad, lleva a cabo la transición y vuelve a usar parse.
+```
+% parsear la palabra con recursividad
+parse([Head|Rest], Estado_inicial) :-
+    traslada(Head, Estado_inicial, Estado_final),
+    parse(Rest, Estado_final).
+```
 
+
+
+
+  </li>
+</ol>
