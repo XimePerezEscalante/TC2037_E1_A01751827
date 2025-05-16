@@ -46,8 +46,8 @@ Para el DFA en Prolog, se deben definir:
 </ol>
 
 Todo esto se muestra a continuación:
-** Transiciones: ** 
-```
+<strong> Transiciones: </strong>
+```pl
 traslada('A',q0,q1).
 traslada(d,q1,q2).
 traslada(i,q1,q10).
