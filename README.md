@@ -50,7 +50,7 @@ Todo esto se muestra a continuación:
 <ol>
  <li>
 <strong> Transiciones: </strong>
-```pl
+```
 traslada('A',q0,q1).
 traslada(d,q1,q2).
 traslada(i,q1,q10).
@@ -74,18 +74,18 @@ traslada(n,q17,q9).
 </li> 
 <li>
   <strong>Estados finales:</strong>
-  ```
-  estado_final(q3).
+```
+estado_final(q3).
 estado_final(q4).
 estado_final(q9).
 estado_final(q12).
-  ```
+```
 </li>
   <li>
     <strong>Reglas:</strong>
     Regla que recibe la palabra.
 ```
- % comenzar a parsear desde el estado inicial (q0)
+% comenzar a parsear desde el estado inicial (q0)
 valida(Palabra):-
 parse(Palabra, q0).  
 ```
@@ -94,7 +94,7 @@ Regla que establece el caso base, que es cuando la lista queda vacía. Recibe el
 ```
 % caso base
 parse([], Estado_inicial):-
-    estado_final(Estado_inicial).
+estado_final(Estado_inicial).
 ```
 Regla en la que se recorre la palabra usando recursividad, lleva a cabo la transición y vuelve a usar parse.
 ```
