@@ -84,11 +84,12 @@ estado_final(q12).
   <li>
     <strong>Reglas:</strong>
     Regla que recibe la palabra.
-    ```
-    % comenzar a parsear desde el estado inicial (q0)
-valida(Palabra):-
-    parse(Palabra, q0).
 ```
+ % comenzar a parsear desde el estado inicial (q0)
+valida(Palabra):-
+parse(Palabra, q0).  
+```
+
 Regla que establece el caso base, que es cuando la lista queda vacía. Recibe el estado, para ver si coincide con un estado final y de ser así, la palabra es válida.
 ```
 % caso base
