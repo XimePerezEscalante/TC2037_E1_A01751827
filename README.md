@@ -107,3 +107,41 @@ Todo esto se muestra a continuación:
         parse(Rest, Estado_final).
     ```
 
+## Tests
+A continuación se muestra por cada palabra, el input que debe escribirse en Prolog para comprobar que el Autómata acepta las palabras del lenguaje:
+1. **Ada**
+   Input:
+   ```prolog
+   valida(['A',d,a]).
+   ```
+3. **Adan**
+   ```prolog
+   valida(['A',d,a,n]).
+   ```
+5. **Adanedhel**
+   ```prolog
+   valida(['A',d,a,n,e,d,h,e,l]).
+   ```
+7. **Aelin**
+   ```prolog
+   valida(['A',e,l,i,n]).
+   ```
+9. **Aaye**
+    ```prolog
+   valida(['A',a,y,e]).
+   ```
+11. **Aiya**
+    ```prolog
+   valida(['A',i,y,a]).
+   ```
+**Contraejemplos**
+A continuación se muestran diferentes input para demostrar que el Autómata no acepta palabras no pertenecientes al lenguaje:
+```prolog
+valida(['A']).
+valida(['A',d,a,n,n]).
+valida(['A',i,y,e]).
+valida([a]).
+valida([a,d,a]).
+valida([a,d,a,n]).
+valida(['A',d,e,n,e,d,h,e,l]).
+```
