@@ -134,7 +134,8 @@ A continuación se muestra por cada palabra, el input que debe escribirse en Pro
     ```prolog
     valida(['A',i,y,a]).
    ```
-**Contraejemplos**
+
+
 A continuación se muestran diferentes input para demostrar que el Autómata no acepta palabras no pertenecientes al lenguaje:
 ```prolog
 valida(['A']).
