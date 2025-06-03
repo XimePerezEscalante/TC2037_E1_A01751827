@@ -25,6 +25,9 @@ El diagrama anterior se puede representar en la siguiente tabla de estados:
 | Q0    | A   | Q1   |
 | Q1    | d   | Q2   |
 | Q1    | i   | Q10   |
+| Q1    |  a  | Q13   |
+| Q1    |  e  | Q15   |
+| Q2    |  a  |  Q3   |
 
 
 ## Expresión regular
