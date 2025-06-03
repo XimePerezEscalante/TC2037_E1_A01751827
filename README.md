@@ -133,5 +133,11 @@ valida(['A',d,e,n,e,d,h,e,l]).
 ```
 ### Expresión regular en C++
 
-Para validar que la expresión regular, se usó la librería `std::Regex` en C++.
+Para validar que la expresión regular, se usó la librería `std::regex` en C++.
+
 **¿Cómo funciona?**
+
+Primero se tiene que crear la instancia de la clase regex (en este caso fue de manera global) con el nombre `regExpression` y se le manda la expresión.
+```C++
+std::regex regExpression(R"(A(da|dan|aye|iya|elin|danedhel)$)");
+```
