@@ -17,7 +17,6 @@ Para el lenguaje de este proyecto ∑ = {a, d, e, h, i, l, n, y}, se pide que ú
 Debido a que no hay patrones y se están tratando palabras que se asemejan al lenguaje natural, decidí diseñar un DFA (Deterministic Finite Automaton), que muestro a continuación. 
 
 <h2>Automata:</h2>
-<img src="https://github.com/XimePerezEscalante/TC2037_E1_A01751827/blob/main/Automata_A01751827.png?raw=true" alt="automata">
 
 <h2>Expresión regular</h2>
 <strong> A(da|dan|aye|iya|elin|danedhel)$ </strong>
@@ -115,7 +114,7 @@ A continuación se muestra por cada palabra, el input que debe escribirse en Pro
    ```prolog
    valida(['A',d,a]).
    ```
-   
+   !(https://github.com/XimePerezEscalante/TC2037_E1_A01751827/blob/main/Automata_A01751827.png?raw=true)
 3. **Adan**
    ```prolog
    valida(['A',d,a,n]).
