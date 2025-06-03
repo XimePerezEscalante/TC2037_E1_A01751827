@@ -45,7 +45,6 @@ Para el DFA en Prolog, se deben definir:
 </ol>
 
 Todo esto se muestra a continuación:
-   !(https://github.com/XimePerezEscalante/TC2037_E1_A01751827/blob/main/Automata_A01751827.png?raw=true)
 1. **Transiciones:**
 
     ```prolog
@@ -108,7 +107,7 @@ Todo esto se muestra a continuación:
 
 ## Tests
 A continuación se muestra por cada palabra, el input que debe escribirse en Prolog para comprobar que el Autómata acepta las palabras del lenguaje:
-![Ada](https://i.blogs.es/a19bfc/testing/1366_2000.jpg)
+![Ada](https://github.com/XimePerezEscalante/TC2037_E1_A01751827/blob/main/Automata_A01751827.png?raw=true)
 1. **Ada**
    Input:
    ```prolog
