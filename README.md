@@ -111,7 +111,7 @@ A continuación se muestra por cada palabra, el input que debe escribirse en Pro
    Input:
    ```prolog
    valida(['A',d,a]).
-   ```
+   
 ![Ada](https://github.com/XimePerezEscalante/TC2037_E1_A01751827/blob/main/Tests%20Autómata/Ejemplos/Ada.png?raw=true)
 3. **Adan**
    ```prolog
