@@ -94,7 +94,8 @@ Todo esto se muestra a continuación:
     ```
 ## Tests
 ### Prolog
-En la carpeta Tests_Automata se encuentran fotos con las pruebas que se mencionan en este apartado.
+
+En la carpeta **Tests Autómata** se encuentran fotos con las pruebas que se mencionan en este apartado.
 
 A continuación se muestra por cada palabra, el input que debe escribirse en Prolog para comprobar que el Autómata acepta las palabras del lenguaje:
 1. **Ada**
