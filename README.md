@@ -58,7 +58,7 @@ Todo esto se muestra a continuación:
     traslada(l,q15,q16).
     traslada(i,q16,q17).
     traslada(n,q17,q9).
-
+```
 2. **Estados finales:**
 
     ```prolog
@@ -66,7 +66,7 @@ Todo esto se muestra a continuación:
     estado_final(q4).
     estado_final(q9).
     estado_final(q12).
-
+```
 3. **Reglas:**
 
     Regla que recibe la palabra:
@@ -74,7 +74,8 @@ Todo esto se muestra a continuación:
     ```prolog
     % comenzar a parsear desde el estado inicial (q0)
     valida(Palabra):-
-        parse(Palabra, q0).  
+        parse(Palabra, q0).
+    ```
 
     Regla que establece el caso base, que es cuando la lista queda vacía. Recibe el estado, para ver si coincide con un estado final y de ser así, la palabra es válida:
 
@@ -82,7 +83,7 @@ Todo esto se muestra a continuación:
     % caso base
     parse([], Estado_inicial):-
         estado_final(Estado_inicial).
-
+    ```
     Regla en la que se recorre la palabra usando recursividad, lleva a cabo la transición y vuelve a usar parse:
 
     ```prolog
@@ -90,27 +91,33 @@ Todo esto se muestra a continuación:
     parse([Head|Rest], Estado_inicial) :-
         traslada(Head, Estado_inicial, Estado_final),
         parse(Rest, Estado_final).
-
+    ```
 ## Tests
 A continuación se muestra por cada palabra, el input que debe escribirse en Prolog para comprobar que el Autómata acepta las palabras del lenguaje:
 1. **Ada**
    ```prolog
    valida(['A',d,a]).
+   ```
 2. **Adan**
    ```prolog
    valida(['A',d,a,n]).
+   ```
 3. **Adanedhel**
    ```prolog
    valida(['A',d,a,n,e,d,h,e,l]).
+   ```
 4. **Aelin**
    ```prolog
    valida(['A',e,l,i,n]).
+   ```
 5. **Aaye**
     ```prolog
    valida(['A',a,y,e]).
+    ```
 6. **Aiya**
     ```prolog
     valida(['A',i,y,a]).
+    ```
   
 ### Contraejemplos
 A continuación se muestran diferentes input para demostrar que el Autómata no acepta palabras no pertenecientes al lenguaje:
