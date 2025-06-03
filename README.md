@@ -93,6 +93,7 @@ Todo esto se muestra a continuación:
         parse(Rest, Estado_final).
     ```
 ## Tests
+### Prolog
 A continuación se muestra por cada palabra, el input que debe escribirse en Prolog para comprobar que el Autómata acepta las palabras del lenguaje:
 1. **Ada**
    ```prolog
@@ -130,3 +131,7 @@ valida([a,d,a]).
 valida([a,d,a,n]).
 valida(['A',d,e,n,e,d,h,e,l]).
 ```
+### Expresión regular en C++
+
+Para validar que la expresión regular, se usó la librería `std::Regex` en C++.
+**¿Cómo funciona?**
