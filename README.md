@@ -200,3 +200,6 @@ bool isValid(std::string word) {
 - *Contraejemplos:* `La palabra [word] NO cumple con la gramática`.
 
 Por otro lado, si se escoge la segunda opción, el usuario debe ingresar una palabra *sin espacios* y se revisa de la misma manera.
+
+**Referencias**
+CPlusPlus. _Regex_. CPlusPlus.com. Recuperado de: https://cplusplus.com/reference/regex/regex/
