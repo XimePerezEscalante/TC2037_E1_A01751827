@@ -1,0 +1,30 @@
+% Ejemplos
+
+valida(['A',d,a]).
+
+valida(['A',d,a,n]).
+
+valida(['A',d,a,n,e,d,h,e,l]).
+
+valida(['A',e,l,i,n]).
+
+valida(['A',a,y,e]).
+
+valida(['A',i,y,a]).
+
+
+% Contraejemplos
+
+valida(['A']).
+
+valida(['A',d,a,n,n]).
+
+valida(['A',i,y,e]).
+
+valida([a]).
+
+valida([a,d,a]).
+
+valida([a,d,a,n]).
+
+valida(['A',d,e,n,e,d,h,e,l]).
