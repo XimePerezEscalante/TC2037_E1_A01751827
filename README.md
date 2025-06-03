@@ -45,7 +45,7 @@ Para el DFA en Prolog, se deben definir:
 </ol>
 
 Todo esto se muestra a continuación:
-
+   !(https://github.com/XimePerezEscalante/TC2037_E1_A01751827/blob/main/Automata_A01751827.png?raw=true)
 1. **Transiciones:**
 
     ```prolog
@@ -114,7 +114,7 @@ A continuación se muestra por cada palabra, el input que debe escribirse en Pro
    ```prolog
    valida(['A',d,a]).
    ```
-   !(https://github.com/XimePerezEscalante/TC2037_E1_A01751827/blob/main/Automata_A01751827.png?raw=true)
+
 3. **Adan**
    ```prolog
    valida(['A',d,a,n]).
