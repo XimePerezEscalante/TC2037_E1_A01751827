@@ -1,5 +1,5 @@
 # TC2037_E1_A01751827
-Evidencia 1 Análisis Léxico - Implementación de Métodos Computacionales
+# Evidencia 1 Análisis Léxico - Implementación de Métodos Computacionales
 ## Descripción
 Para el lenguaje de este proyecto ∑ = {a, d, e, h, i, l, n, y}, se pide que únicamente sean aceptadas las siguientes palabras:
 
@@ -94,6 +94,8 @@ Todo esto se muestra a continuación:
     ```
 ## Tests
 ### Prolog
+En la carpeta Tests_Automata se encuentran fotos con las pruebas que se mencionan en este apartado.
+
 A continuación se muestra por cada palabra, el input que debe escribirse en Prolog para comprobar que el Autómata acepta las palabras del lenguaje:
 1. **Ada**
    ```prolog
@@ -195,3 +197,5 @@ bool isValid(std::string word) {
 
 - *Ejemplos:* `La palabra [word] cumple con la gramática`.
 - *Contraejemplos:* `La palabra [word] NO cumple con la gramática`.
+
+Por otro lado, si se escoge la segunda opción, el usuario debe ingresar una palabra *sin espacios* y se revisa de la misma manera.
