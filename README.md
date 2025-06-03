@@ -58,7 +58,7 @@ Todo esto se muestra a continuación:
     traslada(l,q15,q16).
     traslada(i,q16,q17).
     traslada(n,q17,q9).
-```
+    ```
 2. **Estados finales:**
 
     ```prolog
@@ -66,7 +66,7 @@ Todo esto se muestra a continuación:
     estado_final(q4).
     estado_final(q9).
     estado_final(q12).
-```
+    ```
 3. **Reglas:**
 
     Regla que recibe la palabra:
@@ -129,3 +129,4 @@ valida([a]).
 valida([a,d,a]).
 valida([a,d,a,n]).
 valida(['A',d,e,n,e,d,h,e,l]).
+```
