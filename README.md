@@ -121,6 +121,7 @@ A continuación se muestra por cada palabra, el input que debe escribirse en Pro
     ```
   
 **Contraejemplos**
+
 A continuación se muestran diferentes input para demostrar que el Autómata no acepta palabras no pertenecientes al lenguaje:
 ```prolog
 valida(['A']).
@@ -157,7 +158,7 @@ Si se elige la primera opción, se revisan las siguientes palabras:
 
 **Ejemplos**
 
-Se encuentran en el arrelo `inputAccepted`.
+Se encuentran en el arreglo `inputAccepted`.
 
 1. Ada
 2. Adan
@@ -168,7 +169,7 @@ Se encuentran en el arrelo `inputAccepted`.
 
 **Contraejemplos**
 
-Se encuentran en el arrelo `inputNotAccepted`.
+Se encuentran en el arreglo `inputNotAccepted`.
 
 1. A
 2. Adaaaaa
@@ -192,5 +193,5 @@ bool isValid(std::string word) {
 
 **Ouput esperado**
 
-- **Ejemplos:** `La palabra [word] cumple con la gramática`.
-- **Contraejemplos:** `La palabra [word] NO cumple con la gramática`.
+- *Ejemplos:* `La palabra [word] cumple con la gramática`.
+- *Contraejemplos:* `La palabra [word] NO cumple con la gramática`.
