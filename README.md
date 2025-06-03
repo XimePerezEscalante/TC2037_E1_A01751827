@@ -19,10 +19,13 @@ Debido a que no hay patrones y se están tratando palabras que se asemejan al le
 ## Autómata:
 ![Automata](https://github.com/XimePerezEscalante/TC2037_E1_A01751827/blob/main/Automata_A01751827.png?raw=true)
 El diagrama anterior se puede representar en la siguiente tabla de estados:
-|Estado inicial | Símbolo | Estado final|
------------------------------------------
-|Q0|A|Q1|
----------
+
+| Estado inicial | Símbolo | Estado final |
+|----------------|---------|--------------|
+| Q0    | A   | Q1   |
+| Q1    | d   | Q2   |
+| Q1    | i   | Q10   |
+
 
 ## Expresión regular
 **A(da|dan|aye|iya|elin|danedhel)$**
