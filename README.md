@@ -120,7 +120,7 @@ A continuación se muestra por cada palabra, el input que debe escribirse en Pro
     valida(['A',i,y,a]).
     ```
   
-### Contraejemplos
+**Contraejemplos**
 A continuación se muestran diferentes input para demostrar que el Autómata no acepta palabras no pertenecientes al lenguaje:
 ```prolog
 valida(['A']).
@@ -137,7 +137,60 @@ Para validar que la expresión regular, se usó la librería `std::regex` en C++
 
 **¿Cómo funciona?**
 
-Primero se tiene que crear la instancia de la clase regex (en este caso fue de manera global) con el nombre `regExpression` y se le manda la expresión.
+Primero se tiene que crear la instancia de la clase regex (en este caso fue de manera global). Tiene el nombre `regExpression` y se le manda la expresión.
 ```C++
 std::regex regExpression(R"(A(da|dan|aye|iya|elin|danedhel)$)");
 ```
+
+Posteriormente se usa la función `std::regex_match()`, que recibe un string y la expresión regular. Y sólo devuelve `true` si el string coincide completamente con la expresión.
+```C++
+std::regex_match(std::string, std::regex);
+```
+
+**Programa**
+
+El programa cuenta con dos opciones:
+1. Revisar los ejemplos predeterminados.
+2. Ingresar una palabra.
+
+Si se elige la primera opción, se revisan las siguientes palabras:
+
+**Ejemplos**
+
+Se encuentran en el arrelo `inputAccepted`.
+
+1. Ada
+2. Adan
+3. Adanedhel
+4. Aelin
+5. Aaye
+6. Aiya
+
+**Contraejemplos**
+
+Se encuentran en el arrelo `inputNotAccepted`.
+
+1. A
+2. Adaaaaa
+3. Adaan
+4. empty string
+5. adanedh
+6. a
+
+Para ambos casos se iteran los arreglos usando un ciclo for y se manda llamar la función `isValid(std::string)`:
+
+```C++
+bool isValid(std::string word) {
+    if (std::regex_match(word,regExpression)) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+```
+
+**Ouput esperado**
+
+- **Ejemplos:** `La palabra [word] cumple con la gramática`.
+- **Contraejemplos:** `La palabra [word] NO cumple con la gramática`.
