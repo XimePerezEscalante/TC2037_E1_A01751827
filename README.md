@@ -108,7 +108,7 @@ Todo esto se muestra a continuación:
 
 ## Tests
 A continuación se muestra por cada palabra, el input que debe escribirse en Prolog para comprobar que el Autómata acepta las palabras del lenguaje:
-<img src="https://github.com/XimePerezEscalante/TC2037_E1_A01751827/blob/main/Tests%20Autómata/Ejemplos/Ada.png">
+![Ada](https://github.com/XimePerezEscalante/TC2037_E1_A01751827/blob/main/Tests%20Autómata/Ejemplos/Ada.png)
 1. **Ada**
    Input:
    ```prolog
