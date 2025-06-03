@@ -28,6 +28,19 @@ El diagrama anterior se puede representar en la siguiente tabla de estados:
 | Q1    |  a  | Q13   |
 | Q1    |  e  | Q15   |
 | Q2    |  a  |  Q3   |
+| Q3    |  n  |  Q4   |
+| Q4    |  e  |  Q5   |
+| Q5    |  d  |  Q6   |
+| Q6    |  h  |  Q7   |
+| Q7    |  e  |  Q8   |
+| Q8    |  l  |  Q9   |
+| Q10   |  y  |  Q11  |
+| Q11   |  a  |  Q12  |
+| Q13   |  y  |  Q14  |
+| Q14   |  e  |  Q9   |
+| Q15   |  l  |  Q16  |
+| Q16   |  i  |  Q17  |
+| Q17   |  n  |  Q9   |
 
 
 ## Expresión regular
