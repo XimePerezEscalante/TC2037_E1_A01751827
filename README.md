@@ -18,6 +18,15 @@ Debido a que no hay patrones y se están tratando palabras que se asemejan al le
 
 ## Autómata:
 ![Automata](https://github.com/XimePerezEscalante/TC2037_E1_A01751827/blob/main/Automata_A01751827.png?raw=true)
+
+### Elementos del diagrama
+- **Flecha antes de Q0:** estado inicial.
+- **Círculos:** estados.
+- **Doble círculos:** estados finales.
+- **Flechas:** arcos.
+- **Letras en las flechas:** símbolos.
+
+Un autómata, también conocido como máquina de estados,  representa el cambio de un estado a otro por medio de arcos y símbolos que se encuentran en los arcos, que son los que te hacen pasar de un estado a otro.
 El diagrama anterior se puede representar en la siguiente tabla de estados:
 
 | Estado inicial | Símbolo | Estado final |
