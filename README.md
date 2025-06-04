@@ -183,6 +183,16 @@ valida(['A',d,e,n,e,d,h,e,l]).
 
 Para validar que la expresión regular, se usó la librería `std::regex` en C++.
 
+**Compilar el archivo**
+```bash
+g++ expresion_regular.cpp
+```
+
+**Ejecutar el programa**
+```bash
+./a.out
+```
+
 **¿Cómo funciona?**
 
 Primero se tiene que crear la instancia de la clase regex (en este caso fue de manera global). Tiene el nombre `regExpression` y se le manda la expresión.
