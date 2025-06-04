@@ -16,7 +16,9 @@ Para el lenguaje de este proyecto ∑ = {a, d, e, h, i, l, n, y}, se pide que ú
 
 Debido a que no hay patrones y se están tratando palabras que se asemejan al lenguaje natural, decidí diseñar un DFA (Deterministic Finite Automaton), que muestro a continuación. 
 
-## Autómata:
+## Autómata
+Un autómata, también conocido como máquina de estados,  representa el cambio de un estado a otro por medio de arcos y símbolos que se encuentran en los arcos, que son los que te hacen pasar de un estado a otro. Para este DFA, se modeló cómo se cambia de Estados de acuerdo el símbolo, en este caso letras.
+
 ![Automata](https://github.com/XimePerezEscalante/TC2037_E1_A01751827/blob/main/Automata_A01751827.png?raw=true)
 
 ### Elementos del diagrama
@@ -26,7 +28,7 @@ Debido a que no hay patrones y se están tratando palabras que se asemejan al le
 - **Flechas:** arcos.
 - **Letras en las flechas:** símbolos.
 
-Un autómata, también conocido como máquina de estados,  representa el cambio de un estado a otro por medio de arcos y símbolos que se encuentran en los arcos, que son los que te hacen pasar de un estado a otro.
+
 El diagrama anterior se puede representar en la siguiente tabla de estados:
 
 | Estado inicial | Símbolo | Estado final |
