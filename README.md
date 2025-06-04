@@ -20,7 +20,7 @@ Debido a que no hay patrones y se están tratando palabras que se asemejan al le
 ![Automata](https://github.com/XimePerezEscalante/TC2037_E1_A01751827/blob/main/Automata_A01751827.png?raw=true)
 
 ### Elementos del diagrama
-- **Flecha antes de Q0:** estado inicial.
+- **Q0:** estado inicial.
 - **Círculos:** estados.
 - **Doble círculos:** estados finales.
 - **Flechas:** arcos.
