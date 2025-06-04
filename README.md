@@ -62,6 +62,16 @@ Donde se está declarando que:
 - Las palabras deben comenzar con A.
 - Seguido de la A, se acepta cualquier elemento dentro del paréntesis separado por **|** mejor conocido como un or.
 - El **$** significa que ahí debe terminar la palabra.
+
+## Diferencia entre el Autómata y la Expresión Regular
+La diferencia más visible es que en los autómatas se representan transiciones entre estados determinadas por un símbolo, 
+mientras que en la expresión regular se definen los patrones que deben cumplir los strings. Así que para saber si una
+palabra pertence a un lenguaje:
+
+En el _autómata_ se recorre letra por letra y cuando termina la palabra, se revisa si el estado actual es un estado final.
+
+En la _expresión regular_ se revisa que la palabra cumpla con el patrón que haya sido establecido.
+
 ## Implementación
 Para el DFA en Prolog, se deben definir:
 1. Las transiciones entre estados: Estado Inicial, Estado Final y el símbolo con el que se pasó al estado inicial.
