@@ -73,8 +73,17 @@ Donde se está declarando que:
 <br>
 <br>
 - Las palabras deben comenzar con A.
-- Seguido de la A, se acepta cualquier elemento dentro del paréntesis separado por **|** mejor conocido como un or.
-- El **$** significa que ahí debe terminar la palabra.
+- Seguido de la A, **(da|dan|aye|iya|elin|danedhel)** quiere decir que se acepta cualquier
+  elemento dentro del paréntesis separado por **|** (mejor conocido como un or). Los elementos son:
+
+  - da
+  - dan
+  - aye
+  - iya
+  - elin
+  - danedhel
+ 
+- Por último, el **$** significa que ahí debe terminar la palabra.
 
 ## Diferencia entre el Autómata y la Expresión Regular
 La diferencia más visible es que en los autómatas se representan transiciones entre estados determinadas por un símbolo, 
