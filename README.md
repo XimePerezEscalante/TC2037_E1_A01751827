@@ -30,7 +30,13 @@ Un autómata, también conocido como máquina de estados,  representa el cambio 
 
 ### Explicación
 
-Para pasar del estado inicial (Q0) al siguiente (Q1), se necesita una **A**
+Para pasar del estado inicial (Q0) al siguiente (Q1), se necesita una **A** y a partir de ahí las opciones son **d**, **i**, **a** o **e**
+
+Los Estados Finales son:
+* Q3
+* Q4
+* Q9
+* Q12
 
 El diagrama anterior se puede representar en la siguiente tabla de estados:
 
