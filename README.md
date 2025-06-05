@@ -210,7 +210,7 @@ g++ expresion_regular.cpp
 
 Primero se tiene que crear la instancia de la clase regex (en este caso fue de manera global). Tiene el nombre `regExpression` y se le manda la expresión.
 ```C++
-std::regex regExpression(R"(A(da|dan|aye|iya|elin|danedhel)$)");
+std::regex regExpression("(A(da|dan|aye|iya|elin|danedhel)$)");
 ```
 
 Posteriormente se usa la función `std::regex_match()`, que recibe un string y la expresión regular. Y sólo devuelve `true` si el string coincide completamente con la expresión.
