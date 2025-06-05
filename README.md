@@ -153,7 +153,7 @@ Todo esto se muestra a continuación:
 ### Tiempo y complejidad espacial
 
 Mi Autómata es un DFA, así que por cada símbolo sólo hay un posible cambio de estado, lo que genera que 
-al usar recursividad únicamente hay una opción a dónde ir. Lo que mantiene un tiempo y complejidad espacial lineal, es decir **O(n)**.
+al usar recursividad únicamente haya una opción a dónde ir, lo que mantiene un tiempo y complejidad espacial lineal, es decir **O(n)**.
 
 ## Tests
 ### Prolog
