@@ -30,7 +30,7 @@ Un autómata, también conocido como máquina de estados,  representa el cambio 
 
 ### Explicación
 
-Para pasar del estado inicial (Q0) al siguiente (Q1), se necesita una **A** y a partir de ahí las opciones son **d**, **i**, **a** o **e**
+Para pasar del estado inicial (Q0) al siguiente (Q1), se necesita una **A** y a partir de ahí las opciones son **d**, **i**, **a** o **e**, después se sigue el mismo orden, pero voy a hablar específicamente de las palabras _"Ada"_, _"Adan"_ y _"Adanedhel"_, ya que son las únicas que pueden verse diferentes. Esto se debe a que para _"Ada"_, se llega al Estado Final Q3, pero a partir de ahí se puede continuar con una **n** y llegar al Estado Final Q4, así que para _"Adanedhel"_ es el mismo caso, llegando al Estado Final Q
 
 Los Estados Finales son:
 * Q3
@@ -47,15 +47,15 @@ El diagrama anterior se puede representar en la siguiente tabla de estados:
 | Q1    | i   | Q10   |
 | Q1    |  a  | Q13   |
 | Q1    |  e  | Q15   |
-| Q2    |  a  |  Q3   |
-| Q3    |  n  |  Q4   |
+| Q2    |  a  |  **Q3**   |
+| Q3    |  n  |  **Q4**   |
 | Q4    |  e  |  Q5   |
 | Q5    |  d  |  Q6   |
 | Q6    |  h  |  Q7   |
 | Q7    |  e  |  Q8   |
-| Q8    |  l  |  Q9   |
+| Q8    |  l  |  **Q9**   |
 | Q10   |  y  |  Q11  |
-| Q11   |  a  |  Q12  |
+| Q11   |  a  |  **Q12**  |
 | Q13   |  y  |  Q14  |
 | Q14   |  e  |  Q9   |
 | Q15   |  l  |  Q16  |
