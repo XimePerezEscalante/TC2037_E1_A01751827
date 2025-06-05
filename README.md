@@ -149,6 +149,12 @@ Todo esto se muestra a continuación:
         traslada(Head, Estado_inicial, Estado_final),
         parse(Rest, Estado_final).
     ```
+
+### Tiempo y complejidad espacial
+
+Mi Autómata es un DFA, así que por cada símbolo sólo hay un posible cambio de estado, lo que genera que 
+al usar recursividad únicamente hay una opción a dónde ir. Lo que mantiene un tiempo y complejidad espacial lineal, es decir **O(n)**.
+
 ## Tests
 ### Prolog
 
