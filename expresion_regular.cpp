@@ -9,8 +9,8 @@
 #include <string>
 #include <regex>
 
-// Expresión regular que acepta las palabras del arreglo inputAccepted
-std::regex regExpression(R"(A(da|dan|aye|iya|elin|danedhel)$)");
+// Expresión regular que acepta las palabras del lenguaje
+std::regex regExpression("(A(da|dan|aye|iya|elin|danedhel)$)");
 
 /*
  Funcion que usa regex_match para ver si la palabra coincide
@@ -43,7 +43,8 @@ void ejemplos() {
     // Calcular el tamano del arreglo
     int arraySize = sizeof(inputAccepted) / sizeof(inputAccepted[0]);
     
-    std::cout << "Ejemplos:" << std::endl;
+    std::cout << "===============================================" << std::endl;
+    std::cout << "Ejemplos:\n" << std::endl;
 
     // Iterar las palabras que deben ser aceptadas usando regex_match
     for (int i = 0;i < arraySize;i++){
@@ -56,8 +57,9 @@ void ejemplos() {
             " NO cumple con la gramática pero sí debería :(\n" << std::endl;
         }
     }
-    
-    std::cout << "\n\nContraejemplos:" << std::endl;
+    std::cout << "===============================================" << std::endl;
+    std::cout << "\n\n===============================================" << std::endl;
+    std::cout << "Contraejemplos:\n" << std::endl;
     
     // Iterar las palabras que NO deben ser aceptadas usando regex_match
     for (int i = 0;i < arraySize;i++){
@@ -70,6 +72,7 @@ void ejemplos() {
             " NO cumple con la gramática.\n" << std::endl;
         }
     }
+    std::cout << "===============================================" << std::endl;
 }
 
 /*
