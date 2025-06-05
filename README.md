@@ -30,7 +30,9 @@ Un autómata, también conocido como máquina de estados,  representa el cambio 
 
 ### Explicación
 
-Para pasar del estado inicial (Q0) al siguiente (Q1), se necesita una **A** y a partir de ahí las opciones son **d**, **i**, **a** o **e**, después se sigue el mismo orden, pero voy a hablar específicamente de las palabras _"Ada"_, _"Adan"_ y _"Adanedhel"_, ya que son las únicas que pueden verse diferentes. Esto se debe a que para _"Ada"_, se llega al Estado Final Q3, pero a partir de ahí se puede continuar con una **n** y llegar al Estado Final Q4, así que para _"Adanedhel"_ es el mismo caso, llegando al Estado Final Q
+Para pasar del estado inicial (Q0) al siguiente (Q1), se necesita una **A** y a partir de ahí las opciones son **d**, **i**, **a** o **e**, después se sigue el mismo orden, pero voy a hablar específicamente de las palabras _"Ada"_, _"Adan"_ y _"Adanedhel"_, ya que son las únicas que pueden verse diferentes. Esto se debe a que para _"Ada"_, se llega al Estado Final Q3, pero a partir de ahí se puede continuar con una **n** y llegar al Estado Final Q4, así que para _"Adanedhel"_ es el mismo caso, llegando al Estado Final Q9.
+
+Finalmente, la razón por la que el Estado Final Q9,es compartido por las palabras _"Adanedhel"_, _"Aelin"_ y 
 
 Los Estados Finales son:
 * Q3
